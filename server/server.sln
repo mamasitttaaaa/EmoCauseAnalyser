@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "silero-vad", "silero-vad", "{FA2EAB0D-BBFB-ED12-E069-2CC4D645DC7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{EA562D8E-BB00-B5E8-EB40-E2A3AA3488A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VadDotNet", "silero-vad\examples\csharp\VadDotNet.csproj", "{79853D71-A406-A33F-1E25-259C7B0619D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79853D71-A406-A33F-1E25-259C7B0619D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79853D71-A406-A33F-1E25-259C7B0619D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79853D71-A406-A33F-1E25-259C7B0619D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79853D71-A406-A33F-1E25-259C7B0619D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA562D8E-BB00-B5E8-EB40-E2A3AA3488A7} = {FA2EAB0D-BBFB-ED12-E069-2CC4D645DC7F}
+		{79853D71-A406-A33F-1E25-259C7B0619D9} = {EA562D8E-BB00-B5E8-EB40-E2A3AA3488A7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F17F5AC-0B6C-486B-A6A1-2BD76521A6B0}
+	EndGlobalSection
+EndGlobal
